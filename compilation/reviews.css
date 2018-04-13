@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url("images/spookyIsland.jpg");
+    background-image: url("assets/spookyIsland.jpg");
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ h1 {
 
 .review-box {
     display: flex;
-    background-image: url("images/skullsbackground.jpg");
+    background-image: url("assets/skullsbackground.jpg");
     flex-direction: row;
     border: 1px solid grey;
     margin: 50px;
@@ -36,32 +36,32 @@ h1 {
 
 
 .one {
-    background-image: url("images/jungleSkeleton.jpg");
+    background-image: url("assets/jungleSkeleton.jpg");
     background-size: cover;
 }
 
 .two {
-    background-image: url("images/sand skeleton 1.jpg");
+    background-image: url("assets/sand skeleton 1.jpg");
     background-size: cover;
 }
 
 .three {
-    background-image: url("images/underWaterSkull.jpg");
+    background-image: url("assets/underWaterSkull.jpg");
     background-size: cover;
 }
 
 .four {
-    background-image: url("images/jungleSkeleton2.jpg");
+    background-image: url("assets/jungleSkeleton2.jpg");
     background-size: cover;
 }
 
 .five {
-    background-image: url("images/sandskeleton2.jpg");
+    background-image: url("assets/sandskeleton2.jpg");
     background-size: cover;
 }
 
 .six {
-    background-image: url("images/skeletonUnderWater.jpeg");
+    background-image: url("assets/skeletonUnderWater.jpeg");
     background-size: cover;
 }
 
@@ -85,7 +85,7 @@ header {
 
 
 .page-footer {
-    background-image: url('./images/spookyIsland.jpg');
+    background-image: url('./assets/spookyIsland.jpg');
     opacity: 0.7;
     background-size: 100%;
 }
@@ -102,4 +102,8 @@ header {
 
 h4 {
     color: rgb(146, 9, 15);
+}
+
+.home-link {
+    text-align: center
 }

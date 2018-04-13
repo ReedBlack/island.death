@@ -64,3 +64,7 @@ span {
     color: rgb(2, 50, 63);
 }
 
+.review-link {
+    display: flex;
+    justify-content: center;
+}
