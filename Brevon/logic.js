@@ -37,6 +37,7 @@ function addSituationListener() {
   .then(function(situations) {
     console.log(situations)
     situationsArray = situations
+    
     document.getElementById('newSitch').addEventListener('click', function(event) {
       if (Math.floor(Math.random() * 2) == 0) {
 
