@@ -1,19 +1,13 @@
-
-  body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Open Sans Condensed', sans-serif;
-  }
+}
 
-  @font-face {
-    font-family: 'Atmosphere Regular';
-    src:url('./assets/Atmosphere-Regular.ttf') format('ttf');
-  }
-
-  main {
+main {
     flex: 1 0 auto;
-  }
+}
 
 .splash-page {
     background-image: url('./assets/headerimage.jpg');
