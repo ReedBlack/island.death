@@ -1,0 +1,77 @@
+[
+  {"type": "Volcano Eruption",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description": "A large volcano has erupted spewing lava and soot onto vacationers!",
+   "id": 0
+  },
+
+   {"type": "Red-Assed Baboon Attack",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "The local Baboon tribe has caught wind of your food stores! Their theft has caused your party to kill and eat one member",
+    "id": 1
+    },
+
+   {"type": "Cannibals",
+    "bodyCount": 0,
+    "affectedPersons": "",
+    "description": "The Cannibals are actually pretty chill guys. Everyone survives.",
+    "id": 2
+    },
+
+   {"type": "Plumbus Barrage",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "Plumbi rain down from the sky, killing 1.",
+    "id": 3
+    },
+
+   {"type": "Phish Fans",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "Some heady bros show up and lay down some crunchy tunes. However, the vibe becomes severely harshed leaving one dead.",
+    "id": 4
+    },
+
+   {"type":"Busey Attack",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description":"A naked, rabid, spear-wielding Gary Busey has emerged from the jungle and attacked",
+   "id": 5
+   },
+
+   {"type":"Intergroup Feud",
+   "bodyCount": 1,
+   "affectedPersons": "Tensions are rising! An argument turned into a fight turned into murder",
+   "id": 6
+   },
+
+   {"type":"Falling Object",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"A coconut has fallen from a tree and killed someone. What luck!",
+   "id": 7
+   },
+
+   {"type":"Boar Attack",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"During your boar hunt, the boar got the upper-hand",
+   "id" : 8
+   },
+
+   {"type":"Monster Attack",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description":"Went for a piss and never returned. Screams, followed by a deep gurgly noise were heard.",
+   "id": 9
+   },
+
+   {"type":"'Chemicorp' Abduction",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"The island's mysterious, dark corporate entity has abducted one from your party! Suspected cause of death: chemical weapons testing",
+   "id": 10
+   }
+]
