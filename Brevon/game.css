@@ -1,11 +1,23 @@
 img {
-  height: 100px;
-  width: 100px;
-  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
 }
 li {
   list-style-type: none;
 }
 span {
   font-weight: bold;
+}
+iframe {
+  border: 0;
+}
+.content {
+  display: flex;
+}
+.event {
+  flex: 3;
+}
+#characters {
+  flex: 2;
 }
