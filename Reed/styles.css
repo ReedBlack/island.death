@@ -1,0 +1,11 @@
+.user-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.review-box {
+  display: flex;
+  flex-direction:row;
+  
+}
