@@ -6,7 +6,7 @@ body {
   background-image: url('./assets/skullisland.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 150%
+  background-size: 150%;
 }
 
 main {
@@ -21,8 +21,8 @@ h1 {
   font-family: 'Special Elite', serif;
 }
 
-span {
-  font-family: 'Special Elite', serif;
+ .player-h1 { 
+  margin-left: 180px;
 }
 
 img {
@@ -33,27 +33,31 @@ img {
 
 li {
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
+  padding: 15px;
+  width: 10vw;
 }
+
 span {
   font-weight: bold;
+  line-height: 2em;
+  font-family: 'Special Elite', serif;
 }
 
 iframe {
   border: 0;
+  height: 300px;
+  
 }
 .content {
   display: flex;
+  justify-content: space-around;
 }
 .event {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-}
-
-.players{
-  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
 }
 
 #whoDed img {
@@ -74,6 +78,26 @@ iframe {
   z-index: 50000;
 }
 
-.description {
+#description {
   text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+p {
+  line-height: 1.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+}
+
+#newSitch {
+  font-family: 'Special Elite', serif;
+  line-height: 2em;
+  width: 200px;
 }
