@@ -47,7 +47,8 @@ function addSituationListener() {
 }
 
 function randomSitch(situations) {
-  var num = Math.floor(Math.random() * 10)
+  console.log(situations)
+  var num = Math.floor(Math.random() * situations.length)
   document.getElementById('header').textContent = situations[num].type
   document.getElementById('description').textContent = situations[num].description
   document.getElementById('descriptionIMG').src = situations[num].imageURL
@@ -69,7 +70,7 @@ function killPeople(num) {
       var id = Math.floor(Math.random() * document.getElementsByClassName('person').length)
       var personToDie = document.getElementsByClassName('person')[id]
       console.log(personToDie.getElementsByTagName('span')[0])
-      document.getElementById('whoDed').textContent = personToDie.getElementsByTagName('span')[0].textContent + '  ...YA DEAD'
+      // document.getElementById('whoDed').textContent = personToDie.getElementsByTagName('span')[0].textContent + '  ...YA DEAD'
       personToDie.getElementsByTagName('span')[0].textContent = 'YA DEAD, SRY'
       personToDie.classList.toggle('person')
       personToDie.classList.toggle('red')
