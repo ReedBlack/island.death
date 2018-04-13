@@ -1,11 +1,79 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url('./assets/skullisland.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150%
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.background{
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+h1 {
+  font-family: 'Special Elite', serif;
+}
+
+span {
+  font-family: 'Special Elite', serif;
+}
+
 img {
   height: 100px;
   width: 100px;
   border-radius: 25px;
 }
+
 li {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 span {
   font-weight: bold;
+}
+
+iframe {
+  border: 0;
+}
+.content {
+  display: flex;
+}
+.event {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.players{
+  flex-wrap: wrap;
+}
+
+#whoDed img {
+  height: 200px;
+  width: 200px;
+}
+
+#whoDed {
+  font-family: 'Special Elite', serif;
+  line-height: 4em;
+  font-size: 3em;
+  color: rgb(146, 9, 15)
+}
+
+.red {
+  background-color: rgb(146, 9, 15);
+  opacity: .9;
+  z-index: 50000;
+}
+
+.description {
+  text-align: center;
 }
