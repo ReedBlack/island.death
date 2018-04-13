@@ -7,5 +7,31 @@
 .review-box {
   display: flex;
   flex-direction:row;
-  
+  border: 1px solid grey;
+  margin:10px;
+}
+
+.one {
+image: src("./images/jungleSkeleton.jpg");
+background-size: cover;
+}
+
+.two {
+image: src("images/sand skeleton 1.jpg");
+background-size: cover;
+}
+
+.three {
+image: src("/images/underWaterSkull.jpg");
+background-size: cover;
+}
+
+.four {
+image: src("sandskeleton2.jpg");
+background-size: cover;
+}
+
+.six {
+background-image: src("skeletonUnderWater.jpg");
+background-size: cover;
 }
