@@ -59,3 +59,7 @@ input[type=submit] {
 .card-title {
     background: rgba(255, 255, 255, 0.4);
 }
+
+span {
+    color: rgb(2, 50, 63);
+}
