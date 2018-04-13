@@ -1,5 +1,5 @@
 var playerUrl = './instructors.json'
-var situationUrl = './situation.json'
+var situationUrl = './events.json'
 var situationsArray;
 
 function populatePlayers() {
@@ -23,6 +23,8 @@ function populatePlayers() {
       li.appendChild(span);
       li.appendChild(p);
       li.appendChild(a);
+      li.id = player.name
+      li.classList.add('person')
       document.getElementById('characters').appendChild(li);
     })
   })
@@ -37,17 +39,31 @@ function addSituationListener() {
   .then(function(situations) {
     console.log(situations)
     situationsArray = situations
-    var h1 = document.createElement('h1')
-
-    h1.textContent = 
+    // randomSitch(situations)
     document.getElementById('newSitch').addEventListener('click', function(event) {
-      if (Math.floor(Math.random() * 2) == 0) {
-
-      } else {
-        document.getElementById('liveDied').textContent = 'Ya dead, sry'
-      }
+      randomSitch(situations)
     })
   })
 }
 
+function randomSitch(situations) {
+  var num = Math.floor(Math.random() * 10) + 1
+  document.getElementById('header').textContent = situations[num].type
+  document.getElementById('description').textContent = situations[num].description
+  document.getElementById('descriptionIMG').src = situations[num].imageURL
+  killPeople(situations[num].bodyCount)
+}
+
+function killPeople(num) {
+  var people = 0
+  while (people < num) {
+    var id = Math.floor(Math.random() * document.getElementsByClassName('person').length)
+    var personToDie = document.getElementsByClassName('person')[id]
+    console.log(personToDie.getElementsByTagName('img')[0].src)
+    // document.getElementById('characters').removeChild(personToDie)
+    people += 1
+  }
+}
+
 populatePlayers()
+addSituationListener()
