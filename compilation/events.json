@@ -1,0 +1,88 @@
+[
+  {"type": "Volcano Eruption",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description": "A large volcano has erupted spewing lava and soot onto vacationers!",
+   "id": 0,
+   "imageURL": "https://giphy.com/embed/r5gHt2TCIiHK0"
+  },
+
+   {"type": "Red-Assed Baboon Attack",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "The local Baboon tribe has caught wind of your food stores! Their theft has caused your party to kill and eat one member",
+    "id": 1,
+    "imageURL": "https://giphy.com/embed/3oEdvbpl0X32bXD2Vi"
+    },
+
+   {"type": "Cannibals",
+    "bodyCount": 0,
+    "affectedPersons": "",
+    "description": "The Cannibals are actually pretty chill guys. Everyone survives.",
+    "id": 2,
+    "imageURL": "https://giphy.com/embed/xT0GqHzpKfVz6xtKrm"
+    },
+
+   {"type": "Plumbus Barrage",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "Plumbi rain down from the sky, killing 1.",
+    "id": 3,
+    "imageURL": "https://giphy.com/embed/YT7uuljLADqlq"
+    },
+
+   {"type": "Phish Fans",
+    "bodyCount": 1,
+    "affectedPersons": "",
+    "description": "Some heady bros show up and lay down some crunchy tunes. However, the vibe becomes severely harshed leaving one dead.",
+    "id": 4,
+    "imageURL": "https://giphy.com/embed/1FTrHuObrCODC"
+    },
+
+   {"type":"Busey Attack",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description":"A naked, rabid, spear-wielding Gary Busey has emerged from the jungle and attacked",
+   "id": 5,
+   "imageURL": "https://giphy.com/embed/bdIijesU0QXvO"
+   },
+
+   {"type":"Intergroup Feud",
+   "bodyCount": 1,
+   "affectedPersons": "Tensions are rising! An argument turned into a fight turned into murder",
+   "id": 6,
+   "imageURL": "https://giphy.com/embed/ujPyRRxF6KIjC"
+   },
+
+   {"type":"Falling Object",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"A coconut has fallen from a tree and killed someone. What luck!",
+   "id": 7,
+   "imageURL": "https://giphy.com/embed/I081CbnGWxpNC"
+   },
+
+   {"type":"Boar Attack",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"During your boar hunt, the boar got the upper-hand",
+   "id" : 8,
+   "imageURL": "https://giphy.com/embed/Mqz54tGUocS4g"
+   },
+
+   {"type":"Monster Attack",
+   "bodyCount": 2,
+   "affectedPersons": "",
+   "description":"Went for a piss and never returned. Screams, followed by a deep gurgly noise were heard.",
+   "id": 9,
+   "imageURL": "https://giphy.com/embed/2SVcGC0vYjvKo"
+   },
+
+   {"type":"'Chemicorp' Abduction",
+   "bodyCount": 1,
+   "affectedPersons": "",
+   "description":"The island's mysterious, dark corporate entity has abducted one from your party! Suspected cause of death: chemical weapons testing",
+   "id": 10,
+   "imageURL": "https://giphy.com/embed/l0HlyrIYxSg2QEhRC"
+   }
+]
