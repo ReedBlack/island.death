@@ -47,7 +47,7 @@ function addSituationListener() {
 }
 
 function randomSitch(situations) {
-  var num = Math.floor(Math.random() * 10) + 1
+  var num = Math.floor(Math.random() * 10)
   document.getElementById('header').textContent = situations[num].type
   document.getElementById('description').textContent = situations[num].description
   document.getElementById('descriptionIMG').src = situations[num].imageURL
@@ -56,12 +56,28 @@ function randomSitch(situations) {
 
 function killPeople(num) {
   var people = 0
-  while (people < num) {
-    var id = Math.floor(Math.random() * document.getElementsByClassName('person').length)
-    var personToDie = document.getElementsByClassName('person')[id]
-    console.log(personToDie.getElementsByTagName('img')[0].src)
-    // document.getElementById('characters').removeChild(personToDie)
-    people += 1
+  document.getElementById('whoDed').textContent = ''
+  if (document.getElementsByClassName('person').length === 1) {
+    document.getElementById('whoDed').textContent = document.getElementsByClassName('person')[0].getElementsByTagName('span')[0].textContent + '  ...HAS SURVIVED!! CONGRADUALIONSZZ'
+
+    var winner = document.createElement('img')
+    winner.src = document.getElementsByClassName('person')[0].getElementsByTagName('img')[0].src
+
+    document.getElementById('whoDed').appendChild(winner)
+  } else {
+    while (people < 1) {
+      var id = Math.floor(Math.random() * document.getElementsByClassName('person').length)
+      var personToDie = document.getElementsByClassName('person')[id]
+      console.log(personToDie.getElementsByTagName('span')[0])
+      document.getElementById('whoDed').textContent = personToDie.getElementsByTagName('span')[0].textContent + '  ...YA DEAD'
+      personToDie.getElementsByTagName('span')[0].textContent = 'YA DEAD, SRY'
+      personToDie.classList.toggle('person')
+      personToDie.classList.toggle('red')
+      setTimeout(function() {
+        document.getElementById('characters').removeChild(personToDie)
+      }, 2500)
+      people += 1
+    }
   }
 }
 

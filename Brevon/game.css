@@ -21,3 +21,12 @@ iframe {
 #characters {
   flex: 2;
 }
+#whoDed img {
+  height: 200px;
+  width: 200px;
+}
+.red {
+  background-color: red;
+  opacity: .9;
+  z-index: 50000;
+}
