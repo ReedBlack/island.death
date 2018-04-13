@@ -13,19 +13,6 @@ main {
     background-image: url('./assets/headerimage.jpg');
     background-size: 100%;
     height: 400px;
-<<<<<<< HEAD
-
-  }
-
- .header-text {
-      font-family: 'Homemade Apple', cursive;
-      font-size: 12em;
-      color: rgb(2, 50, 63);
-      background:rgba(255,255,255,0.3);
-      height: 400px;
-      width: 100%;
-      display: flex;
-=======
 }
 
 .header-text {
@@ -36,7 +23,6 @@ main {
     height: 400px;
     width: 100%;
     display: flex;
->>>>>>> 06db638bc5fe7b59410e26e7b7245303dfe07b31
     align-items: center;
     justify-content: center;
 }
@@ -47,22 +33,12 @@ main {
 }
 
 input[type=submit] {
-<<<<<<< HEAD
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding:5px 30px;
-    background:#ccc;
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-=======
     font-family: 'Homemade Apple', sans-serif;
     font-size: 1.5em;
     padding: 5px 30px;
     color: rgb(2, 50, 63);
     border: 0 none;
     cursor: pointer;
->>>>>>> 06db638bc5fe7b59410e26e7b7245303dfe07b31
 }
 
 .page-footer {
@@ -70,8 +46,6 @@ input[type=submit] {
     opacity: 0.7;
     background-size: 100%;
 }
-<<<<<<< HEAD
-=======
 
 .card-image img {
     height: 250px;
@@ -85,4 +59,8 @@ input[type=submit] {
 .card-title {
     background: rgba(255, 255, 255, 0.4);
 }
->>>>>>> 06db638bc5fe7b59410e26e7b7245303dfe07b31
+
+span {
+    color: rgb(2, 50, 63);
+}
+
